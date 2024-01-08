@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(6, 6, 35);
+    min-height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.box {
+    background-color: black;
+}
+
+h1 {
+    color: wheat;
+}
+
+h1 span {
+    color: orange;
+}
+
+
+img {
+    width: 150%;
+}
+
+.hint {
+    color: teal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 20px;
+}
+
+li p {
+    margin-top: 16px;
+    font-weight: bold;
+    padding-right: 20px;
+    color: #ffc107;
+    font-size: 22px;
+}
+
+input {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-inline: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: width .5s;
+}
+
+input:focus {
+    outline: none;
+    background-color: rgb(235, 237, 241);
+    width: 60px;
+}
+
+.hint {
+    width: 100%;
+}
+
+.rule h5 {
+    width: 30%;
+    text-align: center;
+}
+
+
+.rule h5:nth-child(1) {
+    background-color: green;
+}
+
+.rule h5:nth-child(2) {
+    background-color: red;
+}
+
+.rule h5:nth-child(3) {
+    background-color: #009688;
+}
+
+#again {
+    cursor: pointer;
+}

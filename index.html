@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="Style/all.min.css" />
+    <link rel="stylesheet" href="Style/bootstrap.min.css" />
+    <link rel="stylesheet" href="Style/style.css" />
+  </head>
+  <body class="d-flex justify-content-center align-items-center">
+    <div class="container p-3">
+      <div class="box p-3">
+        <h1 class="text-center my-3">Quess The <span>Word</span> Game</h1>
+        <div class="rule d-flex justify-content-between my-4">
+          <h5 class="rounded-5 p-3 text-white">
+            Green Means That The Letter Is Right And In Right Place
+          </h5>
+          <h5 class="rounded-5 p-3 text-white">
+            Red Means That The Letter Is Wrong And Not In The Word
+          </h5>
+          <h5 class="rounded-5 p-3 text-white">
+            Cyan Means That The Word Icludes This Letter But It's In Wrong Place
+          </h5>
+        </div>
+
+        <div class="row">
+          <div class="col-md-7">
+            <div
+              class="d-flex flex-column justify-content-center h-100 align-items-center"
+            >
+              <p
+                class="hint text-center my-4 fw-bold fs-3 bg-body-secondary rounded-5"
+              ></p>
+
+              <ul class="">
+                <li>
+                  <p>Try One</p>
+                  <div class="inputs"></div>
+                </li>
+                <li>
+                  <p>Try Two</p>
+                  <div class="inputss"></div>
+                </li>
+                <li>
+                  <p>Try Three</p>
+                  <div class="inputsss"></div>
+                </li>
+              </ul>
+
+              <div class="d-flex justify-content-between">
+                <h5
+                  id="try"
+                  class="fw-bold text-danger bg-body-secondary rounded-5 p-3 mx-2"
+                ></h5>
+                <h5
+                  id="again"
+                  class="fw-bold text-danger bg-body-secondary rounded-5 p-3 mx-2"
+                >
+                  Play Again
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5">
+            <div
+              class="overflow-hidden d-flex justify-content-center rounded-5"
+            >
+              <img src="Images/pexels-ds-stories-6005213.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js"></script>
+  </body>
+</html>
